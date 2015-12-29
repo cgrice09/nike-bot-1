@@ -1,9 +1,9 @@
 <?php
 include("parse.php");
-$html = file_get_html('https://twitter.com/nikestore');
+$html = file_get_html('https://www.footaction.com');
 $output = "";
 
-foreach($html->find('a[class=twitter-timeline-link]') as $element) {
+foreach($html->find('a[class=website]') as $element) {
     $pos = strrpos($element, "http://bit.ly/");
     if ($pos === false) {
         //product link not found
