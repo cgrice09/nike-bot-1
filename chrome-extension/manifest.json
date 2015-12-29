@@ -8,6 +8,6 @@
       "js": ["autocart.js"]
     }
   ], "permissions": [
-    "tabs", "http://www.footaction.com/*"
+    "tabs", "http://www.footaction.com/*", "webNavigation", "webRequest", "tabs"
   ]
 }
