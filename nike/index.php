@@ -1,6 +1,6 @@
 <?php
 include("parse.php");
-$html = file_get_html('https://twitter.com/nikestore');
+$html = file_get_html('https://twitter.com/adidasoriginals');
 $output = "";
 
 foreach($html->find('a[class=twitter-timeline-link]') as $element) {
